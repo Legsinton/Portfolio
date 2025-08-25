@@ -1,6 +1,7 @@
 # Portfolio
 
 ![Dark Souls Bonfire GIF - Dark Souls Bonfire Rest - Discover   Share GIFs](https://github.com/user-attachments/assets/25217c1c-dbca-4030-b8e6-0a28a4f189f0)
+<img src="[https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5](https://github.com/user-attachments/assets/25217c1c-dbca-4030-b8e6-0a28a4f189f0)" alt="ruin" width="100%">
 
 Hi! And welcome to my portfolio.
 
@@ -15,7 +16,6 @@ Feel free to give their names a *click* to see my contributions.
 # Project Highlights  
 ---
 
-//![ruin](https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5)
 <img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="100%">
 
 ## [Ruin](Ruin/) &larr; Click for more!
