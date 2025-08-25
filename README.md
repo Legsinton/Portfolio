@@ -18,8 +18,8 @@ Feel free to give their names a *click* to see my contributions.
 
 [Ruin](#Ruin)
 
-Developed:  09/2023 - 10/2023
-Duration:   7 weeks
-Engine:     Unity
-Genre:      Skill-based Puzzle Platformer
-Team:       3 Programmers, 3 Artist
+Developed:  04/2025 - 06/2025  
+Duration:   7 weeks  
+Engine:     Unity  
+Genre:      3D Puzzle and Exploration game  
+Team:       3 Programmers, 4 Artist
