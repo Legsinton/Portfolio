@@ -27,12 +27,12 @@ Team:       3 Programmers, 4 Artist
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="200" alt="RuinPic1" /></td>
-    <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="200" alt="RuinPic2" /></td>
+    <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="1244" alt="RuinPic1" /></td>
+    <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="1244" alt="RuinPic2" /></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="200" alt="RuinPic3" /></td>
-    <td><img src="https://github.com/user-attachments/assets/f602bb20-b5f4-40d2-9d2b-d43dbde76808" width="200" alt="RuinPic4" /></td>
+    <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
+    <td><img src="https://github.com/user-attachments/assets/f602bb20-b5f4-40d2-9d2b-d43dbde76808" width="1244" alt="RuinPic4" /></td>
   </tr>
 </table>
 
