@@ -64,12 +64,12 @@ Then click on the arrow bellow!
 <details>
   <summary>Smaller projects</summary>
 
- # Blobber
+  # Blobber
 
-Developed:  01/2025 - 02/2025  
-Duration:   4 Weeks  
-Engine:     Unity  
-Genre:      Mobile Platformer  
-Team:       1 Programmer
+  Developed:  01/2025 - 02/2025  
+  Duration:   4 Weeks  
+  Engine:     Unity  
+  Genre:      Mobile Platformer  
+  Team:       1 Programmer
 
 </details>
