@@ -46,7 +46,7 @@ Team:       3 Programmers, 4 Artist
 Developed:  11/2024 - 01/2025  
 Duration:   8 weeks  
 Engine:     Unity  
-Genre:      Reverse Bullet Helll 
+Genre:      Reverse Bullet Helll  
 Team:       3 Programmers, 4 Artist
 
 <table>
