@@ -21,7 +21,7 @@ Feel free to give their names a *click* to see my contributions.
 
 
 Developed:  04/2025 - 06/2025  
-Duration:   7 weeks  
+Duration:   8 weeks  
 Engine:     Unity  
 Genre:      3D Puzzle and Exploration game  
 Team:       3 Programmers, 4 Artist
