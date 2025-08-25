@@ -75,11 +75,11 @@ Then click on the arrow bellow!
 
   # WItchGame
   
-  Developed:  01/2025 - 02/2025  
-  Duration:   4 Weeks  
+  Developed:  02/2025  
+  Duration:   3 days  
   Engine:     Unity  
-  Genre:      Mobile Platformer  
-  Team:       1 Programmer
+  Genre:      Point and click
+  Team:       2 Programmers, 2 Artists
   
 
 </details>
