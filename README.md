@@ -55,7 +55,7 @@ Team:       3 Programmers, 4 Artist
     <td><img width="1920" alt="MasokingPic2" src="https://github.com/user-attachments/assets/8ddbcb0a-48bb-47be-8bb8-415d7aa972bc" />
   </tr>
 </table>  
----  
+---
 **Other smaller projects**
 
 Want to see what else I've worked on?  
