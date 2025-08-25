@@ -1,6 +1,7 @@
 # Portfolio
 
-![Dark Souls Bonfire GIF - Dark Souls Bonfire Rest - Discover   Share GIFs](https://github.com/user-attachments/assets/25217c1c-dbca-4030-b8e6-0a28a4f189f0),
+![Dark Souls Bonfire GIF - Dark Souls Bonfire Rest - Discover   Share GIFs](https://github.com/user-attachments/assets/25217c1c-dbca-4030-b8e6-0a28a4f189f0)
+
 Hi! And welcome to my portfolio.
 
 # Info
