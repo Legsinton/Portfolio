@@ -62,10 +62,14 @@ Want to see what else I've worked on?
 Then click on the arrow bellow!
 
 <details>
-  <summary>Click here to expand</summary>
+  <summary>Smaller projects</summary>
 
-  Here is the hidden content that is revealed when you click the line.
+ # Blobber
 
-  You can add text, images, code blocks, lists, etc.
+Developed:  01/2025 - 02/2025  
+Duration:   4 Weeks  
+Engine:     Unity  
+Genre:      Mobile Platformer  
+Team:       1 Programmer
 
 </details>
