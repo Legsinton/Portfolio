@@ -34,10 +34,11 @@ Team:       3 Programmers, 4 Artist
     <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
     <td><img src="https://github.com/user-attachments/assets/f602bb20-b5f4-40d2-9d2b-d43dbde76808" width="1244" alt="RuinPic4" /></td>
   </tr>
-</table>
+</table>  
+---  
+---
 
 <img width="100&" height="380" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />  
-# ---
 
 ## [Masoking](Masoking/) &larr; Click for more!
 
