@@ -36,7 +36,9 @@ Team:       3 Programmers, 4 Artist
   </tr>
 </table>
 
-<img width="100&" height="380" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />
+<img width="100&" height="380" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />  
+---  
+---
 
 ## [Masoking](Masoking/) &larr; Click for more!
 
