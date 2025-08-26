@@ -26,7 +26,7 @@ Team:       3 Programmers, 4 Artist
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="1244" alt="RuinPic1" /></td>
     <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="1244" alt="RuinPic2" /></td>
-    <td><img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="100%" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="1244" /></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
@@ -51,7 +51,7 @@ Team:       3 Programmers, 4 Artist
     <td><img width="1920" alt="MasokingPic2" src="https://github.com/user-attachments/assets/8ddbcb0a-48bb-47be-8bb8-415d7aa972bc" />
   </tr>
   <tr>
-    <td><img width="100%" height="600" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />
+    <td><img width="1920%" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />
  </td>
   </tr>
 </table>
