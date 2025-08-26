@@ -23,11 +23,16 @@ During the project I've designed the puzzles and how they should be structured.
 I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
 I was also in charge of creating how the UI functions.  
 
+ <details>
+  <summary>Details</summary>
+   
 Developed:  04/2025 - 06/2025  
 Duration:   8 weeks  
 Engine:     Unity  
 Genre:      Puzzle, Exploration, horror  
 Team:       3 Programmers, 4 Artist
+
+  </details>
 
 <table>
   <tr>
@@ -55,11 +60,16 @@ I helped designing how the character plays, and also some jesters, in how they w
 Creating music and sound effects and how to use them was a big part off what I did.
 I also created the intro stage, how it works and what you where suppsoed to do.
 
+ <details>
+  <summary>Details</summary>
+
 Developed:  11/2024 - 01/2025  
 Duration:   8 weeks  
 Engine:     Unity  
 Genre:      Reverse Bullet Helll  
 Team:       3 Programmers, 4 Artist
+
+  </details>
 
 <table>
   <tr>
