@@ -93,10 +93,15 @@ Then click on the arrow bellow!
   [Itch Page](https://cu1us.itch.io/witch-way-to-wellness)
   <details>
   <summary>Details</summary>
+    
   Developed:  02/2025  
+  
   Duration:   3 days  
+  
   Engine:     Unity  
+  
   Genre:      Point and click  
+  
   Team:       2 Programmers, 2 Artists
   </details>
   
