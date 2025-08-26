@@ -81,7 +81,7 @@ Then click on the arrow bellow!
 <details>
   <summary>Smaller projects</summary>
 
-  # Blobber
+# Blobber
 
 <details>
   <summary>Details</summary>
