@@ -54,7 +54,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
 <table>
  <tr>
-  <td>![RuinPuzzleRoom1Portfolio](https://github.com/user-attachments/assets/3df54984-69cb-48d6-8565-0ba4bb756252)</td>
+  <td><img src="https://github.com/user-attachments/assets/3df54984-69cb-48d6-8565-0ba4bb756252)" /></td>
  </tr>
  
 </table>
