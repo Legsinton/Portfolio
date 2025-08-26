@@ -83,12 +83,16 @@ Then click on the arrow bellow!
 
   # Blobber
 
+<details>
+  <summary>Details</summary>
+  
   Developed:  01/2025 - 02/2025  
   Duration:   4 Weeks  
   Engine:     Unity  
   Genre:      Mobile Platformer  
   Team:       1 Programmer
 
+</details>
   # Witch Well To Wellnes
   
   [Itch Page](https://cu1us.itch.io/witch-way-to-wellness)
