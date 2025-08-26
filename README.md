@@ -46,6 +46,15 @@ Team:       3 Programmers, 4 Artist
 
 ## [Masoking](Masoking/) &larr; Click for more!
 
+**About**
+You play as Masoking, a king who is a huge masocist and is commanding his jester to cause him as much pain as possible for his own plessure.  
+The goal is to get hit by all kinds off projectiles in this reverse bullet hell, but beware if he doesnt get satisfied then you lose the game.  
+
+**My contribution**
+I helped designing how the character plays, and also some jesters, in how they work.  
+Creating music and sound effects and how to use them was a big part off what I did.
+I also created the intro stage, how it works and what you where suppsoed to do.
+
 Developed:  11/2024 - 01/2025  
 Duration:   8 weeks  
 Engine:     Unity  
