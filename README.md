@@ -19,14 +19,14 @@ A 3D puzzle/exploration game with horror elements.
 You travel through a temple with a goal to restore the godess who controls the land, but beware the godess has a vengence and is doing everything to stop you.  
 
 **My contribution**  
-during the project I've designed the puzzles and how they should be structured.  
-I also did all the music and sound effects and created a script to use them in a 3D enviorment.
+During the project I've designed the puzzles and how they should be structured.  
+I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
 I was also in charge of creating how the UI functions.  
 
 Developed:  04/2025 - 06/2025  
 Duration:   8 weeks  
 Engine:     Unity  
-Genre:      3D Puzzle and Exploration game  
+Genre:      Puzzle, Exploration, horror  
 Team:       3 Programmers, 4 Artist
 
 <table>
