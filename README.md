@@ -93,7 +93,8 @@ Then click on the arrow bellow!
   Team:       1 Programmer
 
 </details>
-  # Witch Well To Wellnes
+
+# Witch Way to Wellness
   
   [Itch Page](https://cu1us.itch.io/witch-way-to-wellness)
 
