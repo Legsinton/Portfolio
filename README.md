@@ -90,7 +90,7 @@ Then click on the arrow bellow!
   Team:       1 Programmer
 
   # Witch Well To Wellnes
-  [Itch Page]((https://cu1us.itch.io/witch-way-to-wellness)/)
+  [Itch Page](https://cu1us.itch.io/witch-way-to-wellness)
   <details>
     <summary>Details</summary>
     Developed:  02/2025  
