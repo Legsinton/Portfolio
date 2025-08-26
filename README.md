@@ -90,7 +90,17 @@ Then click on the arrow bellow!
   Team:       1 Programmer
 
   # Witch Well To Wellnes
+  
   [Itch Page](https://cu1us.itch.io/witch-way-to-wellness)
+
+  **About**
+  You are a therapy witch who creates potions to cure peoples problems.  
+  So the goal is to use different ingridients a frow them in a pot to create set potions in your gernal.
+
+  **My Contributions**
+
+  I mainly created music and sound effects and implementing them.
+  
   <details>
   <summary>Details</summary>
     
