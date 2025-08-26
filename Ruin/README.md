@@ -64,9 +64,19 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
 </details>
 
+## Sound and Music Manager
 
 <details>
-  <summary>SoundFX Script</summary>
+  <summary>More Info</summary>
+
+  ### How it works
+
+  The whole structure is a sound effects manager that works in 3D its set up with Enums and Dictionaries to set up everything.  
+  You have control to change size of the object in game, volume, spartial blend and if it should be looping or not.  
+  And then just call it wherever you want a sound or sound loop to appear
+
+<details>
+  <summary>How it plays the sound</summary>
 
  ``` 
    public void PlaySoundFX(SoundType type, Vector3? position = null,float minDistance = 1f, float maxDistance = 50f, float spatialBlend = 1f)
@@ -119,7 +129,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 </details>
 
 <details>
-  <summary>SoundFX Script</summary>
+  <summary>How to initialize sounds</summary>
 
 ```
 private void InitializeSounds()
@@ -157,4 +167,7 @@ private void InitializeSounds()
 ```
 
 </details>
+ 
+</details>
+
   
