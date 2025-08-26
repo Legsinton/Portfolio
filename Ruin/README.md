@@ -33,3 +33,56 @@ Team:       3 Programmers, 4 Artist
 </table>  
 
 ---
+
+<details>
+  <summary>SoundFX Script</summary>
+
+ ``` 
+   public void PlaySoundFX(SoundType type, Vector3? position = null,float minDistance = 1f, float maxDistance = 50f, float spatialBlend = 1f)
+ {
+     if (!soundFXDict.ContainsKey(type)) return;
+
+     // volume if its not in the inspector
+     float volume = 1.0f;
+     if (soundVolumeDict != null && soundVolumeDict.ContainsKey(type))
+     {
+         volume = soundVolumeDict[type];
+     }
+
+     AudioClip clip = null;
+     if (soundFXDict[type] is AudioClip singleClip)
+     {   // If single soundFX
+         clip = singleClip;
+     }
+     else if (soundFXDict[type] is AudioClip[] clipArray)
+     {   // If Multible soundFX
+         clip = clipArray[Random.Range(0, clipArray.Length)];
+     }
+
+     if (clip == null) return;
+
+     if (position.HasValue)
+     {
+         // Manual PlayClipAtPoint with custom size
+         GameObject tempGO = new GameObject($"SFX_{type}");
+         tempGO.transform.position = position.Value;
+
+         AudioSource aSource = tempGO.AddComponent<AudioSource>();
+         aSource.outputAudioMixerGroup = sfxMixerGroup;
+         aSource.clip = clip;
+         aSource.spatialBlend = spatialBlend;
+         aSource.minDistance = minDistance;
+         aSource.maxDistance = maxDistance;
+         aSource.volume = volume;
+         aSource.Play();
+
+         Object.Destroy(tempGO, clip.length);
+     }
+     else
+     {
+         soundFXObject.PlayOneShot(clip, volume);
+     }
+ }
+  ``` 
+
+</details>
