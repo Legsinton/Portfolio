@@ -16,7 +16,6 @@ Feel free to give their names a *click* to see my contributions.
 ---  
 ---
 
-<img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="100%">
 
 ## [Ruin](Ruin/) &larr; Click for more!
 
@@ -30,6 +29,7 @@ Team:       3 Programmers, 4 Artist
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="1244" alt="RuinPic1" /></td>
     <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="1244" alt="RuinPic2" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="100%" /></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
