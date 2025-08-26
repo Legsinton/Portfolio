@@ -56,8 +56,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
  <tr>
   <td><img src="https://github.com/user-attachments/assets/7ec60570-b6dd-4a36-a0c8-439909734f75" alt="RuinPuzzleRoom1Portfolio" width="250" /></td>
   <td><img src="https://github.com/user-attachments/assets/82f0878a-5918-4335-a662-9d23e5037e62"  alt="RuinPuzzleRoom2PortfolioNew" width="250"/></td> 
-  <td><img src="https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394" alt="RuinPuzzleRoom2Part2PortfolioNew" width="250"/></td>td>
-![RuinPuzzleRoom2Part2PortfolioNew](https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394)
+  <td><img src="https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394" alt="RuinPuzzleRoom2Part2PortfolioNew" width="250"/></td>
 
    </tr>
  
