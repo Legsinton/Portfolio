@@ -5,12 +5,14 @@
 
 A 3D puzzle/exploration game with horror elements.  
 You travel through a temple with a goal to restore the godess who controls the land, but beware the godess has a vengence and is doing everything to stop you.  
+How you restore her is by collecting different body parts off the statue which are locked behind gates and doors, and you need to solve different puzzles to get to them. Theres exploration so you can pick up different items to get clues and lore to find out what has happened to the goddess.
 
-## My contribution  
+## My Roles in the project
 
-During the project I've designed the puzzles and how they should be structured.  
+During the project I've designed the puzzles and how they should be structured and with the help off my coworkers to make them feel as good to control as possible.  
 I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
-I was also in charge of creating how the UI functions.  
+I was also in charge of creating how to use the menu and title screen.
+And also co created, movement and how to interact with everything.
 
  <details>
   <summary>Details</summary>
@@ -35,6 +37,30 @@ Team:       3 Programmers, 4 Artist
 </table>  
 
 ---
+
+### Puzzles I've designed
+
+<details>
+  <summary>Info</summary>
+
+### Consepts
+
+First idea was a block puzzle in which you move blocks on platforms to make things move or open, so the first one is to make the platform move down to get the other block to the other floor, and then use one off the triggers to get another block to push into the other trigger to open the gate on the left side.  
+
+Second idea was a clock puzzle which you controll a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring.  
+
+
+ 
+
+<table>
+ <tr>
+  <td> </td>
+ </tr>
+ 
+</table>
+
+</details>
+
 
 <details>
   <summary>SoundFX Script</summary>
