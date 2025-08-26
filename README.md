@@ -11,10 +11,13 @@ Feel free to give their names a *click* to see my contributions.
 
 # Project Highlights  
 ---  
----
-
 
 ## [Ruin](Ruin/) &larr; Click for more!
+
+**About**
+A 3D puzzle/exploration game with horror elements.  
+You travel through a temple with a goal to restore the godess who controls the land, but beware the godess has a vengence and is doing everything to stop you.  
+
 
 Developed:  04/2025 - 06/2025  
 Duration:   8 weeks  
