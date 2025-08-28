@@ -38,7 +38,7 @@ Team:       3 Programmers, 4 Artist
 
 ---
 
-### Puzzles I've designed
+## Puzzles I've designed
 
 ### Consepts
 
