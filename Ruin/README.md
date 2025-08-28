@@ -1,3 +1,4 @@
+
 # Ruin
 <img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="700" hight="50">
 
@@ -46,8 +47,8 @@ First idea was a block puzzle in which you move blocks on platforms to make thin
 
 Second idea was a clock puzzle which you controll a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring.  
 
+<table>
 
- 
 
 <table>
  <tr>
@@ -57,7 +58,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
    </tr>
  
-</table>
+
 
 ## Sound and Music Manager
 
@@ -66,6 +67,15 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
   The whole structure is a sound effects manager that works in 3D its set up with Enums and Dictionaries to set up everything.  
   You have control to change size of the object in game, volume, spartial blend and if it should be looping or not.  
   And then just call it wherever you want a sound or sound loop to appear
+
+<table>
+<tr>
+
+ <td> <img width="1920" height="809" alt="Unity_now43zD16O" src="https://github.com/user-attachments/assets/cbe7accc-a158-4b6f-9528-db20ce43f7cf" /> </td>
+ <td><img width="1092" height="1310" alt="Unity_6gJHSoNKrd" src="https://github.com/user-attachments/assets/089f8c75-3b96-468d-826c-a4b4d277cc10" /></td>
+ 
+</tr>
+</table> 
 
 <details>
   <summary>How it plays the sound</summary>
