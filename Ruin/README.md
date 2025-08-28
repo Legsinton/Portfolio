@@ -40,9 +40,6 @@ Team:       3 Programmers, 4 Artist
 
 ### Puzzles I've designed
 
-<details>
-  <summary>Info</summary>
-
 ### Consepts
 
 First idea was a block puzzle in which you move blocks on platforms to make things move or open, so the first one is to make the platform move down to get the other block to the other floor, and then use one off the triggers to get another block to push into the other trigger to open the gate on the left side.  
@@ -62,12 +59,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
  
 </table>
 
-</details>
-
 ## Sound and Music Manager
-
-<details>
-  <summary>More Info</summary>
 
   ### How it works
 
@@ -164,10 +156,7 @@ private void InitializeSounds()
             { SoundType.WalkSoft, Resources.LoadAll<AudioClip>("Sounds/Effects/WalkSoft") },
         };
 }
-```
-
-</details>
- 
+``` 
 </details>
 
   
