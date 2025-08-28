@@ -73,8 +73,9 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
  <td> <img width="300" alt="Unity_now43zD16O" src="https://github.com/user-attachments/assets/cbe7accc-a158-4b6f-9528-db20ce43f7cf" /> </td>
  <td><img width="300"  alt="Unity_6gJHSoNKrd" src="https://github.com/user-attachments/assets/089f8c75-3b96-468d-826c-a4b4d277cc10" /></td>
- <td>  <img width="300" height="500" alt="Unity_w3M1l0cbli" src="https://github.com/user-attachments/assets/5ead0107-2410-4fbb-994b-b6aafe888c8f" /></td>
+ <td><img width="793" height="1055" alt="Unity_w3M1l0cbli" src="https://github.com/user-attachments/assets/5d147295-b76c-4d1b-a0bf-5e62b47bc1bd" /></td>
 </tr>
+
 </table> 
 
 <details>
