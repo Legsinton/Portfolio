@@ -43,7 +43,10 @@ I've designed the green jester that falls when you dash into it. How they work i
 
 ### Bomb
 
-Second idea was a clock puzzle which you controll a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring.  
+The bomb works by having a timer until it sets off and the you need to be near it to take damage, and when you take damage you also launch away by the explosion impact
+
+![Masoking Bomb](https://github.com/user-attachments/assets/eb1ba741-0af7-4262-9f55-b038d2073625)
+
 
 ## Sound and Music Manager
 
@@ -82,12 +85,5 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
 ## Menu UI
 
-### How its set up
 
-
-
-<details>
- <summory>How It's set up</summory>
- 
-</details>
   
