@@ -215,6 +215,127 @@ public class AudioCrossFade : MonoBehaviour
 ```
  
 </details>
+## Intro Level
 
+### How its set up
+
+You start the level by sitting down and not move, and a projectile misses you and you get sad, adn then a projectile hits you and can start to move.
+When you get hit the board with the instructions move into screen and a teacher jester falls down to point at the instructions, after a while a new board comes in and tells you to dash into the door and start the level.
+
+![Masoking Intro](https://github.com/user-attachments/assets/eb65acd1-0e18-4e25-b1bc-b6c1e6fd86a7)
+
+<details>
+ <summary> How the board moves  </summary>
+
+```
+private IEnumerator SwitchBoard()
+{
+    yield return new WaitForSeconds(3f);
+    SoundFXManager.Instance.PlaySoundFX(sad,1f);
+    MoveTextMoveLeft();
+    yield return new WaitForSeconds(4f);
+    MoveTextMoveRight();
+    MoveBoardMoveRigth();
+    MoveTextYeahMoveLeft();
+    yield return new WaitForSeconds(3);
+    MoveTextMoveYeahRight();
+
+    yield return new WaitForSeconds(6f);
+    MoveBoardMoveLeft();
+    yield return new WaitForSeconds(2f);
+    MoveBoardDash();
+
+}
+
+private IEnumerator MoveText()
+{
+    yield return new WaitForSeconds(7);
+
+    
+
+}
+
+private void MoveBoardMoveRigth()
+{
+    rbMove.transform.DOMove(target2.position, 1.4f);
+}
+
+private void MoveBoardMoveLeft()
+{
+    rbMove.transform.DOMove(target1.position, 2f);
+}
+
+private void MoveTextMoveLeft()
+{
+    rbAw.transform.DOMove(targetLeftYeah.position, 2f);
+}
+
+private void MoveTextMoveRight()
+{
+    rbAw.transform.DOMove(targetRightYeah.position, 2f);
+}
+
+private void MoveTextYeahMoveLeft()
+{
+    rbYeah.transform.DOMove(targetLeftYeah.position, 1.3f);
+}
+
+private void MoveTextMoveYeahRight()
+{
+    rbYeah.transform.DOMove(targetRightYeah.position, 1.3f);
+}
+
+
+private void MoveBoardDash()
+{
+    rbDash.transform.DOMove(target2.position, 2f);
+}
+```
+  
+</details>
+
+<details>
+ <summary>
+  How the jester falls
+ </summary>
+
+```
+private void JesterFall()
+{
+  
+    // Convert target3.position to Vector2
+    Vector2 targetPosition = target3.position; // Implicitly converts Vector3 to Vector2 by ignoring the Z axis
+
+    // Direction to target
+    Vector2 direction = (targetPosition - rbTeacher.position).normalized;
+    float gravityEffect = 20f; // Adjust gravity strength
+
+    // Apply velocity with acceleration and gravity
+    rbTeacher.velocity += acceleration * Time.deltaTime * direction;
+    rbTeacher.velocity += gravityEffect * Time.deltaTime * Vector2.down  ;
+
+    // Clamp speed to prevent it from getting too fast
+    float maxSpeed = 10f;
+    if (rbTeacher.velocity.magnitude > maxSpeed)
+    {
+        rbTeacher.velocity = rbTeacher.velocity.normalized * maxSpeed;
+    }
+
+    // Stop moving if close to the target
+    if (Vector2.Distance(rbTeacher.position, targetPosition) < 0.1f)
+    {
+        rbTeacher.velocity = Vector2.zero;
+        rbTeacher.MovePosition(targetPosition); // Snap the object to the target position
+        if (VFx == false)
+        {
+            Instantiate(hitFloorVfxPrefab, rbTeacher.transform.position, Quaternion.identity);
+            VFx = true;
+
+        }
+    }
+
+}
+```
+</details>
 
   
