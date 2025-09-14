@@ -167,6 +167,55 @@ private void InitializeSounds()
 ``` 
 </details>
 
+<details>
+<summary>The Function to switch from mouse to gamepad</summary>
+
+```
+void OnControlsChanged(PlayerInput input)
+{
+    string scheme = input.currentControlScheme;
+    isGamepad = scheme == "Gamepad";
+    Debug.Log($"Control scheme changed to: {scheme}");
+
+    var uiActionMap = actions.FindActionMap("UI");
+    var pointAction = uiActionMap?.FindAction("Point");
+
+    if (pointAction != null)
+    {
+        if (isGamepad)
+        {
+            pointAction.Disable();
+        }
+        else
+        {
+            pointAction.Enable();
+            Debug.Log("Mouse Point action re-enabled");
+        }
+    }
+
+    // Reset selection
+    EventSystem.current.SetSelectedGameObject(null);
+
+    if (isGamepad)
+    {
+        if (currentMenu != null && menuDefaultButtons.ContainsKey(currentMenu))
+        {
+            EventSystem.current.SetSelectedGameObject(menuDefaultButtons[currentMenu]);
+        }
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    else
+    {
+        justPaused = false;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+}
+
+```
+</details>
+
 ## Menu UI
 
 ### How its set up
@@ -178,11 +227,118 @@ The menu is set up with unitys new input system, and it stops the game and chang
 
 
 <details>
- <summary>How some buttons work</summary>
+ <summary>How the pause function works</summary>
 
  ```
+public void PauseUnPause()
+{
 
- ```
+    bool isPaused = pauseMenu.activeInHierarchy;
+    if (!isPaused)
+    {
+        SoundFXManager.Instance.PlayButtonSoundFX(SoundType.ButtonSelect);
+        isGamepad = playerInput.currentControlScheme == "Gamepad";
+        playerInput.SwitchCurrentActionMap("UI");
+        playerMovement.enabled = false;
+        Hud_Ref.SetActive(true);
+        panel.SetActive(true);
+        goddesSymbol.SetActive(true);
+        OpenMenu(pauseMenu);
+        isPausing = true;
+        Time.timeScale = 0f;
+        justPaused = true;
+        if (isGamepad && menuDefaultButtons.ContainsKey(currentMenu))
+        {
+            StartCoroutine(SetSelect(menuDefaultButtons[currentMenu]));
+        }
+        else
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            justPaused = false;
+            isPausing = true;
+
+        }
+        playerCanvas.SetActive(false);
+    }
+    else if (isPaused)
+    {
+        SoundFXManager.Instance.PlayButtonSoundFX(SoundType.ButtonSelect);
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
+        playerMovement.enabled = true;
+        playerInput.SwitchCurrentActionMap("Player");
+        Time.timeScale = 1f;
+        isPausing = false;
+        pauseMenu.SetActive(false);
+        optionsMenu.SetActive(false);
+        soundMenu.SetActive(false);
+        controllMenu.SetActive(false);
+        Hud_Ref.SetActive(false);
+        panel.SetActive(false);
+        goddesSymbol.SetActive(false);
+        currentMenu = null;
+
+        playerCanvas.SetActive(true);
+
+        menuHistory.Clear();
+    }
+}
+```
+</details>
+
+<details>
+<summary> How the button input set up works </summary>
+ 
+```
+private void OnClickPerformed(InputAction.CallbackContext context)
+{
+    var selected = EventSystem.current.currentSelectedGameObject;
+
+    if (isPausing)
+    {
+        if (selected != null && selected.name == "ResumeButton")
+        {
+            ResumeGame();
+        }
+        else if (selected != null && selected.name == "OptionsButton")
+        {
+            Options();
+        }
+        else if (selected != null && selected.name == "QuitButton")
+        {
+            QuitGame();
+        }
+        else if (selected != null && selected.name == "BackButton")
+        {
+            BackButton();
+        }
+        else if (selected != null && selected.name == "BackButtonOptions")
+        {
+            BackButtonOptions();
+        }
+        else if (selected != null && selected.name == "SoundSettings")
+        {
+            SoundMenu();
+        }
+        else if (selected != null && selected.name == "ControllSettings")
+        {
+            ControllMenu();
+        }
+        else if (selected != null && selected.name == "BackButtonOptionsSound")
+        {
+            BackButtonOptions();
+        }
+        else
+        {
+
+        }
+    }
+}
+
+```
  
 </details>
+ 
   
