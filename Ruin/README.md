@@ -167,55 +167,6 @@ private void InitializeSounds()
 ``` 
 </details>
 
-<details>
-<summary>The Function to switch from mouse to gamepad</summary>
-
-```
-void OnControlsChanged(PlayerInput input)
-{
-    string scheme = input.currentControlScheme;
-    isGamepad = scheme == "Gamepad";
-    Debug.Log($"Control scheme changed to: {scheme}");
-
-    var uiActionMap = actions.FindActionMap("UI");
-    var pointAction = uiActionMap?.FindAction("Point");
-
-    if (pointAction != null)
-    {
-        if (isGamepad)
-        {
-            pointAction.Disable();
-        }
-        else
-        {
-            pointAction.Enable();
-            Debug.Log("Mouse Point action re-enabled");
-        }
-    }
-
-    // Reset selection
-    EventSystem.current.SetSelectedGameObject(null);
-
-    if (isGamepad)
-    {
-        if (currentMenu != null && menuDefaultButtons.ContainsKey(currentMenu))
-        {
-            EventSystem.current.SetSelectedGameObject(menuDefaultButtons[currentMenu]);
-        }
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-    else
-    {
-        justPaused = false;
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.Confined;
-    }
-}
-
-```
-</details>
-
 ## Menu UI
 
 ### How its set up
@@ -340,5 +291,53 @@ private void OnClickPerformed(InputAction.CallbackContext context)
 ```
  
 </details>
- 
+
+ <details>
+<summary>The Function to switch from mouse to gamepad</summary>
+
+```
+void OnControlsChanged(PlayerInput input)
+{
+    string scheme = input.currentControlScheme;
+    isGamepad = scheme == "Gamepad";
+    Debug.Log($"Control scheme changed to: {scheme}");
+
+    var uiActionMap = actions.FindActionMap("UI");
+    var pointAction = uiActionMap?.FindAction("Point");
+
+    if (pointAction != null)
+    {
+        if (isGamepad)
+        {
+            pointAction.Disable();
+        }
+        else
+        {
+            pointAction.Enable();
+            Debug.Log("Mouse Point action re-enabled");
+        }
+    }
+
+    // Reset selection
+    EventSystem.current.SetSelectedGameObject(null);
+
+    if (isGamepad)
+    {
+        if (currentMenu != null && menuDefaultButtons.ContainsKey(currentMenu))
+        {
+            EventSystem.current.SetSelectedGameObject(menuDefaultButtons[currentMenu]);
+        }
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    else
+    {
+        justPaused = false;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+}
+
+```
+</details>
   
