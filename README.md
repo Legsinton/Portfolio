@@ -93,6 +93,13 @@ Then click on the arrow bellow!
 
 # Blobber
 
+**About**
+
+A 2D endless platformer for mobile, created by me during our mobile game course
+
+
+![Blobber Game](https://github.com/user-attachments/assets/438a5a54-40f5-4210-94f3-ac98ed807011)
+
 <details>
   <summary>Details</summary>
   
