@@ -171,10 +171,18 @@ private void InitializeSounds()
 
 ### How its set up
 
+The menu is set up with unitys new input system, and it stops the game and changes to the UI inputs instead. You can also use either mouse or gamepad and sense which you are using when you pause the game but you can also switch from mouse or gamepad while you have the menu up smoothly.
+
+
+![Ruin Menu](https://github.com/user-attachments/assets/3e1307bf-9993-4eda-8527-2182cfc4faf6)
 
 
 <details>
- <summory>How It's set up</summory>
+ <summary>How some buttons work</summary>
+
+ ```
+
+ ```
  
 </details>
   
