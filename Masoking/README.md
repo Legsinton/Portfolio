@@ -42,6 +42,135 @@ I've designed the green jester that falls when you dash into it. How they work i
 
  ![Masoking Green Jester](https://github.com/user-attachments/assets/489ae74b-4bb1-4900-83dc-db4b66f2d158)
 
+ <details>
+<summary>
+ How the jester wobbles
+</summary>
+
+```
+private IEnumerator FallOver(GameObject gameObject, Vector2 playerPosition)
+{
+    hasDashed = true;
+
+
+    Rigidbody2D rb = GetComponent<Rigidbody2D>();
+    if (rb != null)
+    {
+
+        if (hasDashed != false && dashed != true)
+        {
+            _player.GetComponent<Player.Movement>().enabled = false;
+            animator.SetBool("Wobble", true);
+            dashed = true;
+            // Temporarily disable Rigidbody2D to manually animate the fall
+            rb.isKinematic = true;
+
+            // Calculate the fall direction based on player position
+            Vector2 impactDirection = (gameObject.transform.position - (Vector3)playerPosition).normalized;
+            float fallAngle = impactDirection.x > 0 ? -90f : 90f; // Right or left fall
+            float rotationTime = 0.5f; // Time it takes to fall
+            Quaternion startRotation = gameObject.transform.rotation;
+            Quaternion endRotation = Quaternion.Euler(0, 0, fallAngle);
+
+            float wiggleAngle = 7;
+            float wiggleCount = 1.5f;
+            float wiggleDuration = 0.25f;
+
+            lineRenderer.enabled = true;
+            lineRenderer.useWorldSpace = true;
+
+            triggerCollider.enabled = false;
+            isFalling = true;
+
+            if (impactDirection.x > 0) // Dash from left
+            {
+                lineRenderer.SetPosition(0, transform.position + transform.right * 3f);
+                lineRenderer.SetPosition(1, transform.position);
+            }
+            else // Dash from right
+            {
+                lineRenderer.SetPosition(0, transform.position - transform.right * 3f);
+            }
+
+            // The second position stays anchored to the object
+            lineRenderer.SetPosition(1, transform.position);
+
+            lineRenderer.SetPosition(0,
+                transform.position +
+                Vector3.right * (impactDirection.x > 0 ? 2.4f : -2.4f)); // Adjust for dash side
+            lineRenderer.SetPosition(1, transform.position);
+
+            yield return new WaitForSeconds(0.2f);
+            _player.GetComponent<Player.Movement>().enabled = true;
+
+            for (int i = 0; i < wiggleCount; i++)
+            {
+                // Wiggle to the right
+                Quaternion rightRotation = startRotation * Quaternion.Euler(0, 0, wiggleAngle);
+                float elapsed = 0f;
+                Quaternion leftRotation = startRotation * Quaternion.Euler(0, 0, -wiggleAngle);
+
+                while (elapsed < wiggleDuration)
+                {
+                    elapsed += Time.deltaTime;
+
+                    transform.rotation = Quaternion.Lerp(leftRotation, rightRotation, elapsed / wiggleDuration);
+
+                    yield return null;
+                }
+
+                // Wiggle to the left
+                elapsed = 0f;
+
+                while (elapsed < wiggleDuration)
+                {
+                    elapsed += Time.deltaTime;
+
+                    transform.rotation = Quaternion.Lerp(rightRotation, leftRotation, elapsed / wiggleDuration);
+
+                    yield return null;
+                }
+            }
+
+
+            // Rotate the object smoothly over time
+            float elapsedTime = 0f;
+            while (elapsedTime < rotationTime)
+            {
+                elapsedTime += Time.deltaTime;
+                transform.rotation = Quaternion.Lerp(startRotation, endRotation, elapsedTime / rotationTime);
+                yield return null;
+            }
+
+            // Ensure the final rotation matches exactly
+            transform.rotation = endRotation;
+
+            // Optionally re-enable physics
+            rb.isKinematic = false;
+
+            // (Optional) Freeze position constraints if it should stay down
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+            lineRenderer.enabled = false;
+            triggerCollider.enabled = true;
+            isFalling = false;
+            animator.SetBool("Wobble", false);
+            animator.SetTrigger("Hit");
+            SoundFXManager.Instance.PlayRandomSoundFX(smash, 2f);
+            yield return new WaitForSeconds(0.1f);
+
+            hasFallen = true;
+
+            yield return new WaitForSeconds(2f);
+
+            Destroy(rb.gameObject);
+        }
+    }
+}
+```
+  
+ </details>
+
 
 ### Bomb
 
@@ -49,6 +178,41 @@ The bomb works by having a timer until it sets off and the you need to be near i
 
 ![Masoking Bomb](https://github.com/user-attachments/assets/eb1ba741-0af7-4262-9f55-b038d2073625)
 
+<details>
+ <summary>
+  How to launch the player
+ </summary>
+ 
+```
+if (_player)
+{
+    var sqrDistance = Vector3.SqrMagnitude(transform.position - _player.transform.position);
+
+    if (sqrDistance <= explosionRadius)
+    {
+        _player.GetComponent<HeatSystem>().ChangeHeat(damage);
+
+
+        _player.GetComponent<Player.Movement>().enabled = false;
+        // Apply explosion force
+        Rigidbody2D playerRb = _player.GetComponent<Rigidbody2D>();
+        if (playerRb != null)
+        {
+            Vector2 forceDirection = _player.transform.position - transform.position;
+             forceDirection.Normalize();
+             float explosionForce = 2f; // Adjust as needed
+            _player.GetComponent<Player.Movement>().Knocked(0.3f, forceDirection * explosionForce);
+            yield return new WaitForSeconds(0.2f);
+            _player.GetComponent<Player.Movement>().enabled = true;
+
+        }
+
+
+    }
+}
+```
+ 
+</details>
 
 ## Sound and Music Manager
 
