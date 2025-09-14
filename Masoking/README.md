@@ -3,13 +3,14 @@
 
 ## Short Game Description  
 
+You play as Masoking. A excentric masocist king who loves pain and plessure. 
+He is ordering his jesters to cause him as much pain as possible, however the jesters don't really want to but does as he commands.
+So the goal is to take as much damage as possible by the projectiles that are thrown by the jesters, but beware of your heatmeter if it goes low there is a chance that the king will become unsatisfied!
 
 ## My Roles in the project
 
-During the project I've designed the puzzles and how they should be structured and with the help off my coworkers to make them feel as good to control as possible.  
-I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
-I was also in charge of creating how to use the menu and title screen.
-And also co created, movement and how to interact with everything.
+During my time in the project I've helped with the movement, some off the jesters you encounter and also designed the music and soundeffects.
+I have implemented a system to play sound effects and music, and I have also helped with the functionality off the menu.
 
  <details>
   <summary>Details</summary>
@@ -52,16 +53,14 @@ The bomb works by having a timer until it sets off and the you need to be near i
 
   ### How it works
 
-  The whole structure is a sound effects manager that works in 3D its set up with Enums and Dictionaries to set up everything.  
-  You have control to change size of the object in game, volume, spartial blend and if it should be looping or not.  
-  And then just call it wherever you want a sound or sound loop to appear
+It is set upp with different functions to play sounds, with options to play loops or play single sounds, you assign the sounds you want to play on the objects that you want to play sounds, and call the script in other codes where you want it to play, or stop if you use loops. some sound effects also change pitch based on how often they are played.
 
 <table>
 <tr>
 
- <td> <img width="300" alt="Unity_now43zD16O" src="https://github.com/user-attachments/assets/cbe7accc-a158-4b6f-9528-db20ce43f7cf" /> </td>
- <td><img width="300"  alt="Unity_6gJHSoNKrd" src="https://github.com/user-attachments/assets/089f8c75-3b96-468d-826c-a4b4d277cc10" /></td>
- <td><img width="300" height="500" alt="Unity_w3M1l0cbli" src="https://github.com/user-attachments/assets/5d147295-b76c-4d1b-a0bf-5e62b47bc1bd" /></td>
+ <td> <img width="1142" height="1601" alt="Unity sound 1" src="https://github.com/user-attachments/assets/d5129281-42e5-4425-8b02-7a091f60f324" /> </td>
+ <td><img width="1154" height="1601" alt="Masoking Sound" src="https://github.com/user-attachments/assets/5a8d7ecc-f26e-49c9-bf17-c3b06ce72f18" /></td>
+ <td><img width="1155" height="1599" alt="Masoking sound 2" src="https://github.com/user-attachments/assets/21176e06-57a0-42e6-a9ab-c09f5308d6c9" /></td>
 </tr>
 
 </table> 
