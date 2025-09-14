@@ -61,7 +61,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
   ### How it works
 
-  The whole structure is a sound effects manager that works in 3D its set up with Enums and Dictionaries to set up everything.  
+  The whole structure is a sound effects manager that works in 3D and is set up with Enums and Dictionaries.  
   You have control to change size of the object in game, volume, spartial blend and if it should be looping or not.  
   And then just call it wherever you want a sound or sound loop to appear
 
@@ -76,7 +76,7 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 </table> 
 
 <details>
-  <summary>How it plays the sound</summary>
+  <summary>A function to play a sound effect</summary>
 
  ``` 
    public void PlaySoundFX(SoundType type, Vector3? position = null,float minDistance = 1f, float maxDistance = 50f, float spatialBlend = 1f)
