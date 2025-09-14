@@ -2,6 +2,17 @@
 # Ruin
 <img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="700" hight="50">
 
+ <details>
+  <summary>Details</summary>
+   
+Developed:  04/2025 - 06/2025  
+Duration:   8 weeks  
+Engine:     Unity  
+Genre:      Puzzle, Exploration, horror  
+Team:       3 Programmers, 4 Artist
+
+  </details>
+
 ## Short Game Description  
 
 A 3D puzzle/exploration game with horror elements.  
@@ -14,17 +25,6 @@ During the project I've designed the puzzles and how they should be structured a
 I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
 I was also in charge of creating how to use the menu and title screen.
 And also co created, movement and how to interact with everything.
-
- <details>
-  <summary>Details</summary>
-   
-Developed:  04/2025 - 06/2025  
-Duration:   8 weeks  
-Engine:     Unity  
-Genre:      Puzzle, Exploration, horror  
-Team:       3 Programmers, 4 Artist
-
-  </details>
 
 <table>
   <tr>
