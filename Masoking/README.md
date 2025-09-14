@@ -1,6 +1,17 @@
 # Masoking
 <img width="100%" height="600" alt="MasokingHeader" src="https://github.com/user-attachments/assets/56301df2-755e-4e44-bdb3-bace62480096" />
 
+ <details>
+  <summary>Details</summary>
+   
+Developed:  11/2024 - 01/2025  
+Duration:   8 weeks  
+Engine:     Unity  
+Genre:      Bullet Hell 
+Team:       3 Programmers, 4 Artist
+
+  </details>
+  
 ## Short Game Description  
 
 You play as Masoking. A excentric masocist king who loves pain and plessure. 
@@ -12,17 +23,6 @@ So the goal is to take as much damage as possible by the projectiles that are th
 During my time in the project I've helped with the movement, some off the jesters you encounter and also designed the music and soundeffects.
 I have implemented a system to play sound effects and music, and I have also helped with the functionality off the menu.
 The intro level is also designed by me, and I have also helped my fellow programmeres with different coding .
-
- <details>
-  <summary>Details</summary>
-   
-Developed:  11/2024 - 01/2025  
-Duration:   8 weeks  
-Engine:     Unity  
-Genre:      Bullet Hell 
-Team:       3 Programmers, 4 Artist
-
-  </details>
 
 <table>
   <tr>           
