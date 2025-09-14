@@ -32,23 +32,18 @@ Team:       3 Programmers, 4 Artist
 
 ---
 
-## Puzzles I've designed
+## Game objects I've designed
 
-### Consepts
+### Falling Jester
 
-First idea was a block puzzle in which you move blocks on platforms to make things move or open, so the first one is to make the platform move down to get the other block to the other floor, and then use one off the triggers to get another block to push into the other trigger to open the gate on the left side.  
+I've designed the green jester that falls when you dash into it. How they work is that they move one way to another and you are supposed to dash into it to make it fall over and then stand in the red line to take damage. It wobles with code and have some animation to seem like its tipping over
+
+ ![Masoking Green Jester](https://github.com/user-attachments/assets/489ae74b-4bb1-4900-83dc-db4b66f2d158)
+
+
+### Bomb
 
 Second idea was a clock puzzle which you controll a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring.  
-
-<table>
- <tr>
-  <td><img src="https://github.com/user-attachments/assets/7ec60570-b6dd-4a36-a0c8-439909734f75" alt="RuinPuzzleRoom1Portfolio" width="250" /></td>
-  <td><img src="https://github.com/user-attachments/assets/82f0878a-5918-4335-a662-9d23e5037e62"  alt="RuinPuzzleRoom2PortfolioNew" width="250"/></td> 
-  <td><img src="https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394" alt="RuinPuzzleRoom2Part2PortfolioNew" width="250"/></td>
-
-   </tr>
-</table>  
-
 
 ## Sound and Music Manager
 
