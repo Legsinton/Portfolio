@@ -56,6 +56,8 @@ The bomb works by having a timer until it sets off and the you need to be near i
 
 It is set upp with different functions to play sounds, with options to play loops or play single sounds, you assign the sounds you want to play on the objects that you want to play sounds, and call the script in other codes where you want it to play, or stop if you use loops. some sound effects also change pitch based on how often they are played.
 
+The music script is also set up real simple, just play different tracks for different levels. Theres also a function to lower the music if your heatmeter is depleting.
+
 <table>
 <tr>
 
@@ -134,6 +136,84 @@ public void PlayRandomSoundFX(AudioClip[] audioClip, float volume)
      walkFX.loop = false;
  }
 ``` 
+</details>
+
+<details>
+
+<summary> How the crossfade works </summary>
+
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Player;
+using UnityEngine.Audio;
+
+public class AudioCrossFade : MonoBehaviour
+{
+    //
+    HeatSystem heat;
+
+    private AudioSource normal;
+    private AudioSource abnormal;
+
+    public AudioMixerGroup mixer;
+    public AudioClip normalClip;
+    public AudioClip abnormalClip;
+
+    public float overrideValue;
+
+    // Start is called before the first frame update
+    void Awake()
+    {
+        normal      = gameObject.AddComponent<AudioSource>();
+        abnormal    = gameObject.AddComponent<AudioSource>();
+
+        normal.clip = normalClip;
+        abnormal.clip = abnormalClip;
+
+        normal.outputAudioMixerGroup = mixer;
+        abnormal.outputAudioMixerGroup = mixer;
+
+        normal.loop = true;
+        abnormal.loop = true;
+
+    }
+
+    private void Start()
+    {
+        normal.Play();
+        abnormal.Play();
+    }
+
+    private float GetHeat01()
+    {
+
+        //return overrideValue;
+
+       if(heat == null){
+            heat = FindObjectOfType<HeatSystem>();
+       }
+
+        return heat.GetCurrentHeatNormalized();
+    }
+
+    private void Mute()
+    {
+        normal.volume = 0;
+
+    }
+
+    // Update is called once per frame
+    void Update()
+{
+    normal.volume = GetHeat01();
+    abnormal.volume = 1 - GetHeat01();
+}
+}
+
+```
+ 
 </details>
 
 
