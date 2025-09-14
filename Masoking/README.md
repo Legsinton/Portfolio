@@ -11,6 +11,7 @@ So the goal is to take as much damage as possible by the projectiles that are th
 
 During my time in the project I've helped with the movement, some off the jesters you encounter and also designed the music and soundeffects.
 I have implemented a system to play sound effects and music, and I have also helped with the functionality off the menu.
+The intro level is also designed by me, and I have also helped my fellow programmeres with different coding .
 
  <details>
   <summary>Details</summary>
@@ -66,23 +67,74 @@ It is set upp with different functions to play sounds, with options to play loop
 </table> 
 
 <details>
-  <summary>How it plays the sound</summary>
+  <summary>How to play sounds</summary>
 
  ``` 
- 
+ public void PlaySoundFX(AudioClip audioClip, float volume)
+{
+
+
+
+    if (timer >= minTime)
+    {
+        soundFXObject.PlayOneShot(audioClip, volume);
+        timer = 0f; // Reset timer after sound is played
+    }
+
+}
+
+
+public void PlayRandomSoundFX(AudioClip[] audioClip, float volume)
+{
+    int rand = Random.Range(0, audioClip.Length);
+    PlaySoundFX(audioClip[rand], volume);
+}
   ``` 
 
 </details>
 
 <details>
-  <summary>How to initialize sounds</summary>
+  <summary>How to play and stop different loops</summary>
 
 ```
+ public void PlayOnLoop()
+ {
 
+     Claps.clip = claps;
+     Claps.loop = true;
+     Claps.volume = 0.6F;
+     Claps.Play();
+ }
+
+ public void StopLoop()
+ {
+   
+     Claps.loop = false;
+ }
+
+
+ public void StartWalking()
+ {
+     if (!isWalking && walkFX != null && walkClip != null)
+     {
+         isWalking = true;
+         walkFX.clip = walkClip;
+         walkFX.loop = true; // Optional: Set to `true` for continuous playback
+         walkFX.Play();
+     }
+ }
+
+ public void StopWalking()
+ {
+     if (isWalking && walkFX.isPlaying)
+     {
+         walkFX.Stop();
+     }
+     isWalking = false;
+     walkFX.loop = false;
+ }
 ``` 
 </details>
-
-## Menu UI
 
 
   
