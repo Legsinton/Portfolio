@@ -6,8 +6,8 @@ Hi! And welcome to my portfolio.
 
 **Info**  
 
-Below you can find previews of my highlighted projects.  
-Feel free to give their names a *click* to see my contributions.
+Below you can find previews of my highlighted projects. 
+Feel free to give their names a click to see my contributions. 
 
 # Project Highlights  
 ---  
@@ -15,13 +15,13 @@ Feel free to give their names a *click* to see my contributions.
 ## [Ruin](Ruin/) &larr; Click for more!
 
 **About**  
-A 3D puzzle/exploration game with horror elements.  
-You travel through a temple with a goal to restore the godess who controls the land, but beware the godess has a vengence and is doing everything to stop you.  
+A 3D puzzle/exploration game with horror elements. 
+You travel through a temple with a goal to restore the goddess who controls the land, but beware the goddess has a vengeance and is doing everything to stop you.
 
-**My contribution**  
-During the project I've designed the puzzles and how they should be structured.  
-I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
-I was also in charge of creating how the UI functions.  
+**My contributions**  
+During the project I've designed the puzzles and how they should be structured. 
+I also did all the music and sound effects and created a script to use them in a 3D environment. 
+I was also in charge of creating how the UI functions.
 
  <details>
   <summary>Details</summary>
@@ -51,13 +51,14 @@ Team:       3 Programmers, 4 Artist
 ## [Masoking](Masoking/) &larr; Click for more!
 
 **About**
-You play as Masoking, a king who is a huge masocist and is commanding his jester to cause him as much pain as possible for his own plessure.  
-The goal is to get hit by all kinds off projectiles in this reverse bullet hell, but beware if he doesnt get satisfied then you lose the game.  
+About You play as Masoking, a king who is a huge masochist and is commanding his jester to cause him as much pain as possible for his own pleasure. 
+The goal is to get hit by all kinds off projectiles in this reverse bullet hell, but beware if he doesn't get satisfied then you lose the game. 
 
 **My contribution**
-I helped designing how the character plays, and also some jesters, in how they work.  
-Creating music and sound effects and how to use them was a big part off what I did.
-I also created the intro stage, how it works and what you where suppsoed to do.
+
+I helped designing how the character plays, and also some jesters, in how they work. 
+Creating music and sound effects and how to use them was a big part of what I did.
+I also created the intro stage, how it works and what you were supposed to do. 
 
  <details>
   <summary>Details</summary>
@@ -91,7 +92,7 @@ Then click on the arrow bellow!
 
 **About**
 
-A 2D endless platformer for mobile, created by me during our mobile game course
+A 2D endless platformer for mobile, created by me during our mobile game course 
 
 <img width="300" hight="150" alt="Blobber_Game" src="https://github.com/user-attachments/assets/438a5a54-40f5-4210-94f3-ac98ed807011"/>
 
@@ -112,8 +113,8 @@ A 2D endless platformer for mobile, created by me during our mobile game course
 
   **About**  
   
-  You are a therapy witch who creates potions to cure peoples problems.  
-  So the goal is to use different ingridients a frow them in a pot to create set potions in your gernal.
+  You are a therapy witch who creates potions to cure people's problems. 
+  So the goal is to use different ingredients a frow them in a pot to create set potions in your journal. 
 
   **My Contributions**  
   
