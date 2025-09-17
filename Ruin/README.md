@@ -15,16 +15,16 @@ Team:       3 Programmers, 4 Artist
 
 ## Short Game Description  
 
-A 3D puzzle/exploration game with horror elements.  
-You travel through a temple with a goal to restore the godess who controls the land, but beware the godess has a vengence and is doing everything to stop you.  
-How you restore her is by collecting different body parts off the statue which are locked behind gates and doors, and you need to solve different puzzles to get to them. Theres exploration so you can pick up different items to get clues and lore to find out what has happened to the goddess.
+A 3D puzzle/exploration game with horror elements. 
+You travel through a temple with a goal to restore the goddess who controls the land but beware the goddess has a vengeance and is doing everything to stop you. 
+How you restore her is by collecting different body parts off the statue which are locked behind gates and doors, and you need to solve different puzzles to get to them. Theres's exploration so you can pick up different items to get clues and lore to find out what has happened to the goddess. 
 
 ## My Roles in the project
 
-During the project I've designed the puzzles and how they should be structured and with the help off my coworkers to make them feel as good to control as possible.  
-I also did all the music and sound effects and created a script to use them in a 3D enviorment.  
+During the project I've designed the puzzles and how they should be structured and with the help off my coworkers to make them feel as good to control as possible. 
+I also did all the music and sound effects and created a script to use them in a 3D environment. 
 I was also in charge of creating how to use the menu and title screen.
-And also co created, movement and how to interact with everything.
+And also, co-created movement and how to interact with everything. 
 
 <table>
   <tr>
@@ -43,9 +43,9 @@ And also co created, movement and how to interact with everything.
 
 ### Consepts
 
-First idea was a block puzzle in which you move blocks on platforms to make things move or open, so the first one is to make the platform move down to get the other block to the other floor, and then use one off the triggers to get another block to push into the other trigger to open the gate on the left side.  
+First idea was a block puzzle in which you move blocks on platforms to make things move or open, so the first one is to make the platform move down to get the other block to the other floor, and then use one off the triggers to get another block to push into the other trigger to open the gate on the left side. 
 
-Second idea was a clock puzzle which you controll a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring.  
+Second idea was a clock puzzle which you control a standing turner that has a minute and hour trigger that you need to put on the right "time" the time you get by exploring. 
 
 <table>
  <tr>
@@ -61,9 +61,9 @@ Second idea was a clock puzzle which you controll a standing turner that has a m
 
   ### How it works
 
-  The whole structure is a sound effects manager that works in 3D and is set up with Enums and Dictionaries.  
-  You have control to change size of the object in game, volume, spartial blend and if it should be looping or not.  
-  And then just call it wherever you want a sound or sound loop to appear
+ The whole structure is a sound effects manager that works in 3D and is set up with Enums and Dictionaries. 
+You have control to change size of the object in game, volume, spatial blend and if it should be looping or not. 
+And then just call it wherever you want a sound or sound loop to appear.
 
 <table>
 <tr>
@@ -171,7 +171,7 @@ private void InitializeSounds()
 
 ### How its set up
 
-The menu is set up with unitys new input system, and it stops the game and changes to the UI inputs instead. You can also use either mouse or gamepad and sense which you are using when you pause the game but you can also switch from mouse or gamepad while you have the menu up smoothly.
+The menu is set up with Unity's new input system, and it stops the game and changes to the UI inputs instead. You can also use either mouse or gamepad and sense which you are using when you pause the game, but you can also switch from mouse or gamepad while you have the menu up smoothly. 
 
 
 ![Ruin Menu](https://github.com/user-attachments/assets/3e1307bf-9993-4eda-8527-2182cfc4faf6)
@@ -300,7 +300,6 @@ void OnControlsChanged(PlayerInput input)
 {
     string scheme = input.currentControlScheme;
     isGamepad = scheme == "Gamepad";
-    Debug.Log($"Control scheme changed to: {scheme}");
 
     var uiActionMap = actions.FindActionMap("UI");
     var pointAction = uiActionMap?.FindAction("Point");
