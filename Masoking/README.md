@@ -42,6 +42,9 @@ I've designed the green jester that falls when you dash into it. How they work i
 
  ![Masoking Green Jester](https://github.com/user-attachments/assets/489ae74b-4bb1-4900-83dc-db4b66f2d158)
 
+### Code snippet
+
+
  <details>
 <summary>
  How the jester wobbles
@@ -52,8 +55,8 @@ private IEnumerator FallOver(GameObject gameObject, Vector2 playerPosition)
 {
     hasDashed = true;
 
-
     Rigidbody2D rb = GetComponent<Rigidbody2D>();
+
     if (rb != null)
     {
 
@@ -145,10 +148,10 @@ private IEnumerator FallOver(GameObject gameObject, Vector2 playerPosition)
             // Ensure the final rotation matches exactly
             transform.rotation = endRotation;
 
-            // Optionally re-enable physics
+            //re-enable physics
             rb.isKinematic = false;
 
-            // (Optional) Freeze position constraints if it should stay down
+            //Freeze position constraints if it should stay down
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
             lineRenderer.enabled = false;
@@ -156,7 +159,9 @@ private IEnumerator FallOver(GameObject gameObject, Vector2 playerPosition)
             isFalling = false;
             animator.SetBool("Wobble", false);
             animator.SetTrigger("Hit");
+
             SoundFXManager.Instance.PlayRandomSoundFX(smash, 2f);
+
             yield return new WaitForSeconds(0.1f);
 
             hasFallen = true;
@@ -177,6 +182,8 @@ private IEnumerator FallOver(GameObject gameObject, Vector2 playerPosition)
 The bomb works by having a timer until it sets off and the you need to be near it to take damage, and when you take damage you also launch away by the explosion impact
 
 ![Masoking Bomb](https://github.com/user-attachments/assets/eb1ba741-0af7-4262-9f55-b038d2073625)
+
+### Code snippet
 
 <details>
  <summary>
@@ -232,21 +239,20 @@ The music script is also set up real simple, just play different tracks for diff
 
 </table> 
 
+### Code snippets
+
+
 <details>
   <summary>How to play sounds</summary>
 
  ``` 
  public void PlaySoundFX(AudioClip audioClip, float volume)
 {
-
-
-
     if (timer >= minTime)
     {
         soundFXObject.PlayOneShot(audioClip, volume);
         timer = 0f; // Reset timer after sound is played
     }
-
 }
 
 
@@ -277,7 +283,6 @@ public void PlayRandomSoundFX(AudioClip[] audioClip, float volume)
    
      Claps.loop = false;
  }
-
 
  public void StartWalking()
  {
@@ -315,7 +320,6 @@ using UnityEngine.Audio;
 
 public class AudioCrossFade : MonoBehaviour
 {
-    //
     HeatSystem heat;
 
     private AudioSource normal;
@@ -341,7 +345,6 @@ public class AudioCrossFade : MonoBehaviour
 
         normal.loop = true;
         abnormal.loop = true;
-
     }
 
     private void Start()
@@ -352,7 +355,6 @@ public class AudioCrossFade : MonoBehaviour
 
     private float GetHeat01()
     {
-
         //return overrideValue;
 
        if(heat == null){
@@ -389,6 +391,9 @@ When you get hit the board with the instructions move into screen and a teacher 
 
 ![Masoking Intro](https://github.com/user-attachments/assets/eb65acd1-0e18-4e25-b1bc-b6c1e6fd86a7)
 
+### Code snippets  
+
+
 <details>
  <summary> How the board moves  </summary>
 
@@ -415,9 +420,6 @@ private IEnumerator SwitchBoard()
 private IEnumerator MoveText()
 {
     yield return new WaitForSeconds(7);
-
-    
-
 }
 
 private void MoveBoardMoveRigth()
@@ -498,7 +500,6 @@ private void JesterFall()
 
         }
     }
-
 }
 ```
 </details>
