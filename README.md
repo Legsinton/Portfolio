@@ -50,7 +50,8 @@ Team:       3 Programmers, 4 Artist
 
 ## [Masoking](Masoking/) &larr; Click for more!
 
-**About**
+**About**  
+
 About You play as Masoking, a king who is a huge masochist and is commanding his jester to cause him as much pain as possible for his own pleasure. 
 The goal is to get hit by all kinds off projectiles in this reverse bullet hell, but beware if he doesn't get satisfied then you lose the game. 
 
