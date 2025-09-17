@@ -75,6 +75,8 @@ And then just call it wherever you want a sound or sound loop to appear.
 
 </table> 
 
+### Code snippets
+
 <details>
   <summary>A function to play a sound effect</summary>
 
@@ -176,6 +178,7 @@ The menu is set up with Unity's new input system, and it stops the game and chan
 
 ![Ruin Menu](https://github.com/user-attachments/assets/3e1307bf-9993-4eda-8527-2182cfc4faf6)
 
+### Code snippets
 
 <details>
  <summary>How the pause function works</summary>
