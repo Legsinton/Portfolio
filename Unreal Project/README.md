@@ -1,6 +1,6 @@
 
 # Unreal Project
-   <img width="600" height="350" alt="Unreal Project Pic" src="https://github.com/user-attachments/assets/eaa5689a-45aa-4942-8147-2ac7188d723b" />
+   <img width="800" height="550" alt="Unreal Project Pic" src="https://github.com/user-attachments/assets/eaa5689a-45aa-4942-8147-2ac7188d723b" />
 
  <details>
   <summary>Details</summary>
@@ -12,8 +12,6 @@ Genre:      3D Platformer
 Team:       1 Programmer
 
   </details>
-
-   <td><img src="https://github.com/user-attachments/assets/7ec60570-b6dd-4a36-a0c8-439909734f75" alt="RuinPuzzleRoom1Portfolio" width="250" /></td>
   
 ## Short Project Description  
 
