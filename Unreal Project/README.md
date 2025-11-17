@@ -1,6 +1,6 @@
 
 # Unreal Project
-   <img width="800" height="550" alt="Unreal Project Pic" src="https://github.com/user-attachments/assets/eaa5689a-45aa-4942-8147-2ac7188d723b" />
+   <img width="1000" height="600" alt="Unreal Project Pic" src="https://github.com/user-attachments/assets/eaa5689a-45aa-4942-8147-2ac7188d723b" />
 
  <details>
   <summary>Details</summary>
