@@ -47,10 +47,15 @@ Other things include, falling damage, extra animations for the character, run fu
 
 <details>
   <summary>How to move platforms </summary>
+   <img width="2322" height="528" alt="Screenshot Move platform" src="https://github.com/user-attachments/assets/5cef27b6-2269-49d0-8b03-b0cce71e4ff2" />
+   <img width="2376" height="550" alt="Screenshot Move Platform 2" src="https://github.com/user-attachments/assets/71bbca4e-e673-455a-a7d8-9581615755fe" />
+  <summary>How the platform moves </summary>
 
+   <img width="1972" height="684" alt="Screenshot Can Move Platform" src="https://github.com/user-attachments/assets/b78fc03b-bcab-4531-8567-897b6aaa7c1f" />
   
 
 </details>
+
   
 
 
