@@ -22,8 +22,8 @@ Other things include, falling damage, extra animations for the character, run fu
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/734e2fe2-4556-4e19-989a-ed3b441e58f7" width="300"></td>
-    <td><img src="https://github.com/user-attachments/assets/3c3002b8-c55f-424f-8938-5937202692b6" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/734e2fe2-4556-4e19-989a-ed3b441e58f7" width="600" heighy="600"></td>
+    <td><img src="https://github.com/user-attachments/assets/3c3002b8-c55f-424f-8938-5937202692b6" width="600"></td>
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/6e9a4616-68a5-4078-906c-f57215cdb33b" width="300"></td>
