@@ -12,6 +12,8 @@ Genre:      3D Platformer
 Team:       1 Programmer
 
   </details>
+
+   <td><img src="https://github.com/user-attachments/assets/7ec60570-b6dd-4a36-a0c8-439909734f75" alt="RuinPuzzleRoom1Portfolio" width="250" /></td>
   
 ## Short Project Description  
 
@@ -21,20 +23,16 @@ I created different objects which include, Blocks to grapple to, platforms that 
 Other things include, falling damage, extra animations for the character, run function, crouch and a health system.
 
 <table>
-    <tr>
-      <td>![Unreal Project Push](https://github.com/user-attachments/assets/734e2fe2-4556-4e19-989a-ed3b441e58f7)</td>
-      <td>![Unreal Project Pull](https://github.com/user-attachments/assets/3c3002b8-c55f-424f-8938-5937202692b6)</td>
-    </tr>
-   
-   <tr>
-      
-   <td>![Unreal Project Pull Block and jump](https://github.com/user-attachments/assets/6e9a4616-68a5-4078-906c-f57215cdb33b)</td>
-   <td>![Unreal Project Animation](https://github.com/user-attachments/assets/9196c050-b4b3-41d6-92ba-45a830d5b47e)</td>
-      
-   </tr>
-
-
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/734e2fe2-4556-4e19-989a-ed3b441e58f7" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/3c3002b8-c55f-424f-8938-5937202692b6" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6e9a4616-68a5-4078-906c-f57215cdb33b" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/9196c050-b4b3-41d6-92ba-45a830d5b47e" width="300"></td>
+  </tr>
 </table>
+
 
 
 ---
