@@ -81,7 +81,7 @@ Team:       3 Programmers, 4 Artist
 </table>
 
 ---
-**Other smaller projects**
+## Other smaller projects
 
 Want to see what else I've worked on?  
 Then check out the stuff bellow!
