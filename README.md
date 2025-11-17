@@ -84,10 +84,7 @@ Team:       3 Programmers, 4 Artist
 **Other smaller projects**
 
 Want to see what else I've worked on?  
-Then click on the arrow bellow!
-
-<details>
-  <summary>Smaller projects</summary>
+Then check out the stuff bellow!
 
 ## [Unreal Project](Unreal%20Project/) &larr; Click for more!
 
@@ -150,4 +147,3 @@ A 2D endless platformer for mobile, created by me during our mobile game course
   Team:       2 Programmers, 2 Artists
   </details>
   
-</details>
