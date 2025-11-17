@@ -108,10 +108,6 @@ A 3D platformer type off game
 
 </details>
 
-
-<details>
-  <summary>Smaller projects</summary>
-
 # Blobber
 
 **About**
