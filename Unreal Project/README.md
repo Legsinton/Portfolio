@@ -56,6 +56,14 @@ Other things include, falling damage, extra animations for the character, run fu
 
 </details>
 
+<details>
+  <summary>How to push blocks </summary>
+
+   <img width="2164" height="531" alt="Screenshot 2025-11-17 103054" src="https://github.com/user-attachments/assets/45e100ef-0a8f-4192-bf4a-e8e2bcbfedc1" />
+   <img width="2464" height="544" alt="Screenshot 2025-11-17 103031" src="https://github.com/user-attachments/assets/986a69e5-4bca-4d7f-b6e0-9e4fa53c3292" />
+
+</details>
+
   
 
 
