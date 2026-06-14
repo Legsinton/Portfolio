@@ -24,11 +24,10 @@ oxygine level in check to not die. While also find all the parts for your ship a
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/734e2fe2-4556-4e19-989a-ed3b441e58f7" width="470" height="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/3c3002b8-c55f-424f-8938-5937202692b6" width= "470" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/6e9a4616-68a5-4078-906c-f57215cdb33b" width="470" height="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7"></td>
     <td><img src="https://github.com/user-attachments/assets/6d289a7e-d3f6-46ff-a0b5-11eb4c94dd0f"></td>
   </tr>
 </table>
