@@ -41,9 +41,23 @@ The Filling off the lights is a shader graph I created and changes the values in
 <table>
  <tr>
   <td><img src="https://github.com/user-attachments/assets/f63fb81f-b5fa-4556-af9d-66d792500ffd" alt="Fill Shader Graph" width="250" /></td>
-  <td><img src="https://github.com/user-attachments/assets/82f0878a-5918-4335-a662-9d23e5037e62"  alt="RuinPuzzleRoom2PortfolioNew" width="250"/></td> 
-  <td><img src="https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394" alt="RuinPuzzleRoom2Part2PortfolioNew" width="250"/></td>
 
    </tr>
 </table>  
+<details>
+  <summary>How it works</summary>
+
+  <tr>
+  <td><img src="https://github.com/user-attachments/assets/94699893-3c95-4738-b91c-c71658bb61dd" alt="Screenshot 2026-06-14 163944" width="250" /></td>
+  <td><img src="https://github.com/user-attachments/assets/72dd2ea3-07d8-44ae-8653-2c287024a41c" alt="Screenshot 2026-06-14 164005" width="250" /></td>
+     <td><img src="https://github.com/user-attachments/assets/35ff6a04-8662-4ed1-8cb2-13d95e1459f6" alt="Screenshot 2026-06-14 164026" width="250" /></td>
+     <td><img src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" alt="Screenshot 2026-06-14 164038" width="250" /></td>
+   </tr>
+</table><img width="877" height="582" alt="Screenshot 2026-06-14 164005" src="https://github.com/user-attachments/assets/72dd2ea3-07d8-44ae-8653-2c287024a41c" />
+<img width="757" height="625" alt="Screenshot 2026-06-14 164026" src="https://github.com/user-attachments/assets/35ff6a04-8662-4ed1-8cb2-13d95e1459f6" />
+<img width="907" height="726" alt="Screenshot 2026-06-14 164038" src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" />
+
+
+
+</details>
 
