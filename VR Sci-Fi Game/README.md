@@ -5,8 +5,8 @@
  <details>
   <summary>Details</summary>
 
-Developed:  3/2025 - 04/2025  
-Duration:   Mars 2026 - Current
+Developed:  3/2026 - Current  
+Duration:   Still Going
 Engine:     Unity   
 Genre:      VR,Survival,Adventure,Open World  
 Team:       5 Programmers, 4 Artist  
