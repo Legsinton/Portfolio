@@ -60,7 +60,90 @@ for the glow effect.
 </table>
 <details>
   <summary>Code to control the fill height</summary>
+ ``` 
+public IEnumerator ChangeColor(float value, System.Action onFinished = null)
+{
+    // Delay to switch from overflow
+    SwitchFromOverflow();
+    float elapsed = 0;
+    float start = fillHeight;
 
+    float minFill = 0.9f;
+    float maxFill = 2.12f;
+
+    float totalSpheres = fillRenderers.Length;
+
+    // Convert the number of spheres and normalizes it
+    float normalized = value / totalSpheres;
+
+    // Convert normalized → your shader range
+    float currentValue = Mathf.Lerp(minFill, maxFill, normalized);
+
+
+    float difference = Mathf.Abs(currentValue - start);
+
+    // Define how fast the fill should move per second
+    fillSpeed = 0.2f;
+
+    // Duration that is dependent on distance
+    float dynamicDuration = difference / fillSpeed;
+
+    SoundFXManager.Instance.StartLoopFor(this.gameObject, SoundType.Fill, this.transform,0.8f);
+    correctRenderMaterial.SetColor("_Fill_Color", fillColor);
+    correctRenderMaterial.SetColor("_EmissionColor", emissionColorNormal);
+    while (elapsed < dynamicDuration) 
+    {
+        elapsed += Time.deltaTime;
+
+        blink = Mathf.PingPong(Time.time * fillSpeedBlink, 1);
+
+        float t = elapsed / dynamicDuration;
+        fillHeight = Mathf.Lerp(start, currentValue,t);
+        for (int i = 0; i < fillRenderers.Length; i++)
+        {
+            Material m = renderMaterials[i];
+            if (fillRenderers[i].transform.position.y < fillHeight)
+            {
+                m.SetFloat("_Fill_Height", fillHeight);
+                m.SetColor("_Fill_Color", fillColor * blink);
+                m.SetColor("_EmissionColor", emissionColorNormal * blink);
+            }
+            else
+            {
+                m.SetFloat("_Fill_Height", fillHeight);
+                m.SetColor("_Fill_Color", fillColor * blink);
+                m.SetColor("_EmissionColor", emissionColorNormal * blink);
+            }
+        }
+
+
+        if (currentValue < start)
+        {
+            correctRenderMaterial.SetFloat("_Fill_Height", fillHeight /** 1.26f*/);
+            SoundFXManager.Instance.ChangePitchForSoundObject(this.gameObject, -0.1f * Time.deltaTime);
+
+        }
+        else
+        {
+            SoundFXManager.Instance.ChangePitchForSoundObject(this.gameObject, 0.1f * Time.deltaTime);
+        }
+
+        yield return null;
+    }
+
+    for (int i = 0; i < fillRenderers.Length; i++)
+    {
+        Material m = renderMaterials[i];
+
+        m.SetColor("_Fill_Color", fillColor);
+        m.SetColor("_EmissionColor", emissionColorNormal);
+    }
+
+    SoundFXManager.Instance.StopLoopFor(this.gameObject);
+    fillHeight = currentValue;
+    onFinished?.Invoke();
+}
+  ``` 
 
    </details>
 </details>
