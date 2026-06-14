@@ -60,7 +60,7 @@ for the glow effect.
 </table>
 <details>
   <summary>Code to control the fill height</summary>
- ``` 
+```
 public IEnumerator ChangeColor(float value, System.Action onFinished = null)
 {
     // Delay to switch from overflow
@@ -143,7 +143,6 @@ public IEnumerator ChangeColor(float value, System.Action onFinished = null)
     fillHeight = currentValue;
     onFinished?.Invoke();
 }
-  ``` 
 
    </details>
 </details>
