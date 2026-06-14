@@ -145,6 +145,47 @@ for the glow effect.
        onFinished?.Invoke();
    }
 ```
+<summary>How to create a pulsing effect</summary>
+
+```
+void Update()
+{
+    if (isOverFlowing)
+    {
+        // Pulse Values 
+        blink = Mathf.PingPong(Time.time * speed, 1);
+
+        // To keep game objects to pulse
+        for (int i = 0; i < fillRenderers.Length; i++)
+        {
+            Material m = renderMaterials[i];
+
+            if (fillRenderers[i].transform.position.y < fillHeight)
+            {
+
+                m.SetColor("_Fill_Color", overFlownColor * blink);
+                m.SetColor("_EmissionColor", emissionColorOverflow * blink);
+            }
+        }
+        // If the cable volt is to much
+        correctRenderMaterial.SetColor("_Fill_Color", overFlownColor * blink);
+        correctRenderMaterial.SetColor("_EmissionColor", emissionColorOverflow * blink);
+
+        //Start Loop for alarm
+        if (!played)
+        {
+            SoundFXManager.Instance.StartLoopFor(fillObjects[0].gameObject, SoundType.AlarmSound, fillObjects[0].transform);
+            played = true;
+        }
+    }
+    //Stop Loop for alarm
+    else if (!isOverFlowing && played)
+    {
+        SoundFXManager.Instance.StopLoopFor(fillObjects[0].gameObject);
+        played = false;
+    }
+}
+```
    </details>
 </details>
 
