@@ -32,3 +32,19 @@ oxygine level in check to not die. While also find all the parts for your ship a
 
 
 ---
+
+## Cable Puzzle
+
+### Fill Shader Graph
+
+The Filling off the lights is a shader graph I created and changes the values in code
+
+<table>
+ <tr>
+  <td><img src="https://github.com/user-attachments/assets/f63fb81f-b5fa-4556-af9d-66d792500ffd" alt="Fill Shader Graph" width="250" /></td>
+  <td><img src="https://github.com/user-attachments/assets/82f0878a-5918-4335-a662-9d23e5037e62"  alt="RuinPuzzleRoom2PortfolioNew" width="250"/></td> 
+  <td><img src="https://github.com/user-attachments/assets/3f2b8353-668a-4b0b-b6b0-e0436154b394" alt="RuinPuzzleRoom2Part2PortfolioNew" width="250"/></td>
+
+   </tr>
+</table>  
+
