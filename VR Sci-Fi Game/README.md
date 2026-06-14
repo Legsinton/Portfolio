@@ -1,7 +1,3 @@
-<img width="1387" height="1057" alt="Screenshot 2026-06-14 154113" src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236" />
-<img width="1241" height="1057" alt="Screenshot 2026-06-14 154134" src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7" />
-<img width="713" height="925" alt="Screenshot 2026-06-14 154456" src="https://github.com/user-attachments/assets/6d289a7e-d3f6-46ff-a0b5-11eb4c94dd0f" />
-
 # IncOnium
    <img width="1238" height="677" alt="Screenshot 2026-06-14 154720" src="https://github.com/user-attachments/assets/102a0934-9b67-4c6d-9ec4-b0f06de93f7d" />
 
