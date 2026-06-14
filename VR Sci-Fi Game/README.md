@@ -48,9 +48,8 @@ The Filling off the lights is a shader graph I created and changes the values in
   <summary>How it works</summary>
 
   <tr>
-     
-  <td> Glow effect it takes the Glow strenght and adds a frestnel effekt and multiplies it to create a glow effect
-     <img src="https://github.com/user-attachments/assets/94699893-3c95-4738-b91c-c71658bb61dd" alt="Screenshot 2026-06-14 163944" width="250" /></td>
+     Glow effect it takes the Glow strenght and adds a frestnel effekt and multiplies it to create a glow effect and you get the color and applies a pulsing glow while its filling up
+  <td><img src="https://github.com/user-attachments/assets/94699893-3c95-4738-b91c-c71658bb61dd" alt="Screenshot 2026-06-14 163944" width="250" /></td>
   <td><img src="https://github.com/user-attachments/assets/72dd2ea3-07d8-44ae-8653-2c287024a41c" alt="Screenshot 2026-06-14 164005" width="250" /></td>
      <td><img src="https://github.com/user-attachments/assets/35ff6a04-8662-4ed1-8cb2-13d95e1459f6" alt="Screenshot 2026-06-14 164026" width="250" /></td>
      <td><img src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" alt="Screenshot 2026-06-14 164038" width="250" /></td>
