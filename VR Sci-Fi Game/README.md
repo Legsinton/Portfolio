@@ -60,6 +60,7 @@ for the glow effect.
 </table>
 <details>
   <summary>Code to control the fill height</summary>
+   
 ```
    public IEnumerator ChangeColor(float value, System.Action onFinished = null)
    {
@@ -119,7 +120,7 @@ for the glow effect.
    
            if (currentValue < start)
            {
-               correctRenderMaterial.SetFloat("_Fill_Height", fillHeight /** 1.26f*/);
+               correctRenderMaterial.SetFloat("_Fill_Height", fillHeight);
                SoundFXManager.Instance.ChangePitchForSoundObject(this.gameObject, -0.1f * Time.deltaTime);
    
            }
@@ -142,8 +143,8 @@ for the glow effect.
        SoundFXManager.Instance.StopLoopFor(this.gameObject);
        fillHeight = currentValue;
        onFinished?.Invoke();
-   } ```
-
+   }
+```
    </details>
 </details>
 
