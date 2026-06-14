@@ -46,8 +46,8 @@ The Filling off the lights is a shader graph I created and changes the values in
 </table>  
 <details>
   <summary>How it works</summary>
- Glow effect it takes the Glow strenght and adds a frestnel effekt and multiplies it to create a glow effect and you 
- get the color and applies a pulsing glow while its filling up
+This works by taking the world position and then uses the fill heigth variable to create a fill effects to "fill" it up, and you also uses the same world position to
+for the glow effect.
    <table>
   <tr>  
   <td><img src="https://github.com/user-attachments/assets/94699893-3c95-4738-b91c-c71658bb61dd" alt="Screenshot 2026-06-14 163944" width="250" /></td>
@@ -58,6 +58,10 @@ The Filling off the lights is a shader graph I created and changes the values in
      <td><img src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" alt="Screenshot 2026-06-14 164038" width="250" /></td>
    </tr>
 </table>
+<details>
+  <summary>Code to control the fill height</summary>
 
+
+   </details>
 </details>
 
