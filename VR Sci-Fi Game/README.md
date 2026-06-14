@@ -5,7 +5,7 @@
   <summary>Details</summary>
 
 Developed:  3/2026 - Current  
-Duration:   Still Going
+Duration:   Still Going  
 Engine:     Unity   
 Genre:      VR,Survival,Adventure,Open World  
 Team:       5 Programmers, 4 Artist  
