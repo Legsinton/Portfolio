@@ -1,5 +1,3 @@
-<img width="1608" height="878" alt="Fill Shader Graph Pulse" src="https://github.com/user-attachments/assets/18afaa6c-7c05-4303-8066-e4a5d2a7e788" />
-
 # InkOnium
    <img width="1238" height="677" alt="Screenshot 2026-06-14 154720" src="https://github.com/user-attachments/assets/102a0934-9b67-4c6d-9ec4-b0f06de93f7d" />
 
