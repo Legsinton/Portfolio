@@ -53,11 +53,7 @@ The Filling off the lights is a shader graph I created and changes the values in
      <td><img src="https://github.com/user-attachments/assets/35ff6a04-8662-4ed1-8cb2-13d95e1459f6" alt="Screenshot 2026-06-14 164026" width="250" /></td>
      <td><img src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" alt="Screenshot 2026-06-14 164038" width="250" /></td>
    </tr>
-</table><img width="877" height="582" alt="Screenshot 2026-06-14 164005" src="https://github.com/user-attachments/assets/72dd2ea3-07d8-44ae-8653-2c287024a41c" />
-<img width="757" height="625" alt="Screenshot 2026-06-14 164026" src="https://github.com/user-attachments/assets/35ff6a04-8662-4ed1-8cb2-13d95e1459f6" />
-<img width="907" height="726" alt="Screenshot 2026-06-14 164038" src="https://github.com/user-attachments/assets/de356499-5b89-4a7b-9020-85fa9a75ca34" />
-
-
+</table>
 
 </details>
 
