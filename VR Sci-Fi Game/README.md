@@ -14,9 +14,10 @@ Team:       5 Programmers, 4 Artist
   
 ## Short Project Description  
 
-A first person open world VR game, Where you get stranded on a desserted planet and have to repair your ship and get home.
-The planet has a strange aura that you need to solve by gathering resources, build new tools and find out what made the planet turn this way by finding log books all while keeping your 
-oxygine level in check to not die. While also find all the parts for your ship and make your way off the planet and report to the federation.
+An open world VR game, where you get stranded on a deserted planet and must repair your ship and get home.  
+The planet has a strange aura that you need to solve by gathering resources, building new tools,  
+and finding out what made the planet turn this way by looking for logbooks all while keeping your oxygen level in check to not die.  
+While also find all the parts for your ship and make your way off the planet and report to the federation. 
 
 <table>
   <tr>
