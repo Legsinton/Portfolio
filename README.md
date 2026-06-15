@@ -108,14 +108,13 @@ Team:       5 Programmers, 4 Artist
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="1244" alt="RuinPic1" /></td>
-    <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="1244" alt="RuinPic2" /></td>
+    <td><img src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236"></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
-    <td><img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="1244" /></td>
+    <td><img src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7"></td>
+    <td><img src="https://github.com/user-attachments/assets/6d289a7e-d3f6-46ff-a0b5-11eb4c94dd0f"></td>
   </tr>
-</table>  
+</table> 
 
 ---
 
