@@ -109,6 +109,7 @@ Team:       5 Programmers, 4 Artist
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236"></td>
+   <td>><img alt="Screenshot 2026-06-14 154720" src="https://github.com/user-attachments/assets/102a0934-9b67-4c6d-9ec4-b0f06de93f7d" /></td
   </tr>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7"></td>
