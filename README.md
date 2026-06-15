@@ -108,12 +108,12 @@ Team:       5 Programmers, 4 Artist
 
 <table>
   <tr>
-    <td><img width="1920" hight="500" src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236"></td>
-   <td>><img width="1920" hight="500" alt="Screenshot 2026-06-14 154720" src="https://github.com/user-attachments/assets/102a0934-9b67-4c6d-9ec4-b0f06de93f7d" /></td
+    <td><img width="810" hight="500" src="https://github.com/user-attachments/assets/d9983592-c1f7-4431-8046-b3ac53c54236"></td>
+   <td>><img width="810" hight="500" alt="Screenshot 2026-06-14 154720" src="https://github.com/user-attachments/assets/102a0934-9b67-4c6d-9ec4-b0f06de93f7d" /></td
   </tr>
   <tr>
-    <td><img width="1920" hight="500" src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7"></td>
-    <td><img width="1920" hight="500" src="https://github.com/user-attachments/assets/6d289a7e-d3f6-46ff-a0b5-11eb4c94dd0f"></td>
+    <td><img width="810" hight="500" src="https://github.com/user-attachments/assets/43ad3fc7-51a8-40a2-a3f7-ab2df165acc7"></td>
+    <td><img width="810" hight="500" src="https://github.com/user-attachments/assets/6d289a7e-d3f6-46ff-a0b5-11eb4c94dd0f"></td>
   </tr>
 </table> 
 
