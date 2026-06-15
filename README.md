@@ -21,7 +21,7 @@ You travel through a temple with a goal to restore the goddess who controls the 
 **My contributions**  
 During the project I've designed the puzzles and how they should be structured. 
 I also did all the music and sound effects and created a script to use them in a 3D environment. 
-I was also in charge of creating how the UI functions.
+I was also in charge of implementing the UI functions.
 
  <details>
   <summary>Details</summary>
