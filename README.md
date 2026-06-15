@@ -81,6 +81,44 @@ Team:       3 Programmers, 4 Artist
 </table>
 
 ---
+
+## [InkOnium](InkOnium/) &larr; Click for more!
+
+**About**  
+An Open World VR game where you gather resources, build new tools
+and Find out what happened to this strange planet
+
+**My contributions**  
+During the project I've designed some puzzles and created the code for them.
+I also created a compass system to help navigate through the world, was in charge on how to help with performance like creating 
+LOD Groups and impostors and Oclussion Culling.
+But I also created all the music and sound effects and created a script to use them in a 3D environment. 
+And I created alot of Shader graphs for different color effects 
+
+ <details>
+  <summary>Details</summary>
+   
+Developed:  03/2026 - current  
+Duration:   Still going  
+Engine:     Unity  
+Genre:      Open World,Exploration, Adventure
+Team:       5 Programmers, 4 Artist
+
+  </details>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e8fef112-98a1-4d10-98b8-e6355a14add0" width="1244" alt="RuinPic1" /></td>
+    <td><img src="https://github.com/user-attachments/assets/9c2290d4-a89b-428e-ba10-5bdf257331c7" width="1244" alt="RuinPic2" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/ef16b1eb-100d-4e50-885b-06519d8fe08f" width="1244" alt="RuinPic3" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a245ecd0-28f1-41de-830a-f050be9585d5" alt="ruin" width="1244" /></td>
+  </tr>
+</table>  
+
+---
+
 ## Other smaller projects
 
 Want to see what else I've worked on?  
