@@ -47,8 +47,8 @@ The Filling off the lights is a shader graph I created and changes the values in
 </table>  
 <details>
   <summary>How it works</summary>
-This works by taking the world position and then uses the fill heigth variable to create a fill effects to "fill" it up, and you also uses the same world position to
-for the glow effect.
+   This works by taking the world position and then using the fill height variable to create a fill effect to "fill" the lamps,  
+   and you also use the same world position to for the glow effect that uses a Fresnel effect and multiplying it to create the glow effect.  
    <table>
   <tr>  
   <td><img src="https://github.com/user-attachments/assets/94699893-3c95-4738-b91c-c71658bb61dd" alt="Screenshot 2026-06-14 163944" width="250" /></td>
