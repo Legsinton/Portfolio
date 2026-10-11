@@ -203,7 +203,7 @@ Discovered locations appear as markers on the strip, showing their distance and 
 <img width="903" height="729" alt="Compass Gif" src="https://github.com/user-attachments/assets/870797c2-d646-439a-b9a5-65ec599f9cd9" />
 
 <details>
-  <summary>How the compass rotates in the world</summary>
+  <summary>How the compass rotates in the world</summary>  
 
 This works by taking the view direction and then flattening it to a horizontal plane.
 And measures the signed angle from the z axis to where you are facing.
