@@ -198,7 +198,7 @@ void Update()
 
 An compass bar for navigating the world.
 It reads which direction the player is facing and scrolls a looping UV image so orientation always matches the world.
-Discovered locations appear as markers on the strip, showing their distance and fading out as the player arrives.
+Discovered locations appear as markers on the strip, showing their distance and disappears as the player arrives.
 
 <img width="903" height="729" alt="Compass Gif" src="https://github.com/user-attachments/assets/870797c2-d646-439a-b9a5-65ec599f9cd9" />
 
