@@ -196,9 +196,25 @@ void Update()
 
 ### Short description
 
-An compass to navigate the world. It works by calculating where the player is facing in the world and uses a looping image so the player always know where they are.
-The compass also uses markers that the player can access  getting close to specific locations in the world and they show how close they are to the different markers.
+An compass bar for navigating the world.
+It reads which direction the player is facing and scrolls a looping UV image so orientation always matches the world.
+Discovered locations appear as markers on the strip, showing their distance and fading out as the player arrives.
 
 <img width="903" height="729" alt="Compass Gif" src="https://github.com/user-attachments/assets/870797c2-d646-439a-b9a5-65ec599f9cd9" />
+
+<details>
+  <summary>How the compass rotates in the world</summary>
+
+```
+Vector3 forwardVector = Vector3.ProjectOnPlane(viewDirection.forward, Vector3.up).normalized;
+
+float angle = Vector3.SignedAngle(Vector3.forward, forwardVector, Vector3.up);
+
+float offset = angle / 360f;
+
+compassImage.uvRect = new Rect(offset, 0, 1, 1);
+```
+
+</details>
 
 
