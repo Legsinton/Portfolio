@@ -207,7 +207,9 @@ Discovered locations appear as markers on the strip, showing their distance and 
 
 This works by taking the view direction and then flattening it to a horizontal plane.
 And measures the signed angle from the z axis to where you are facing.
-And finnaly converts that angle to a UV offset and scrolls the texture so the compass turns with your head.
+And finally converts that angle to a UV offset and scrolls the texture so the compass turns with your head.
+
+---
 
 ```
 Vector3 forwardVector = Vector3.ProjectOnPlane(viewDirection.forward, Vector3.up).normalized;
@@ -219,6 +221,52 @@ float offset = angle / 360f;
 compassImage.uvRect = new Rect(offset, 0, 1, 1);
 ```
 
+</details>
+
+<details>
+   <summary>How the markers works</summary>
+
+   ### How it calculates if the markers you have should be shown or not and then changes the size of each marker depending on how close or far you are 
+   ```
+foreach(LocationMarker marker in locationMarkers)
+{
+
+    float dst = Vector2.Distance(new Vector2(XROrigin.Camera.transform.position.x, XROrigin.Camera.transform.position.z), marker.position);
+    if(dst < shouldShowMarkerDistance)
+    {
+        marker.image.gameObject.SetActive(false);
+    }
+    else
+    {
+        marker.image.gameObject.SetActive(true);
+        marker.image.rectTransform.anchoredPosition = GetPosOnCompass(marker);
+
+        float scale = 0;
+        if(dst < maxDistance)
+        {
+            scale = 1f - (dst / maxDistance);
+        }
+        marker.image.rectTransform.localScale = Vector3.one * scale * scaleSize;
+    }
+}
+```
+
+### The full code for the math on how it calculates how far you are to the place 
+
+```
+Vector2 GetPosOnCompass(LocationMarker marker)
+{
+    
+    Vector2 playerPos = new (XROrigin.Camera.transform.position.x, XROrigin.Camera.transform.position.z);
+    Vector2 playerFwd = new (XROrigin.Camera.transform.forward.x, XROrigin.Camera.transform.forward.z);
+
+
+    int meterValue = ((int)Vector2.Distance(marker.position, playerPos)) - (int)shouldShowMarkerDistance;
+    float angle = Vector2.SignedAngle(marker.position - playerPos, playerFwd);
+    marker.meter.text = meterValue.ToString() + "m";
+    return new Vector2(compassUnit * angle, offSet);
+}
+   ```
 </details>
 
 
