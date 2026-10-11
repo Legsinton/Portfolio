@@ -227,7 +227,7 @@ compassImage.uvRect = new Rect(offset, 0, 1, 1);
 <details>
    <summary>How the markers works</summary>
 
-   ### How it calculates if the markers you have should be shown or not and then changes the size of each marker depending on how close or far you are 
+   #### How it calculates if the markers you have should be shown or not and then changes the size of each marker depending on how close or far you are 
    ```
 foreach(LocationMarker marker in locationMarkers)
 {
@@ -252,7 +252,7 @@ foreach(LocationMarker marker in locationMarkers)
 }
 ```
 
-### The full code for the math on how it calculates how far you are to the place 
+#### The full code for the math on how it calculates how far you are to the place 
 
 ```
 Vector2 GetPosOnCompass(LocationMarker marker)
