@@ -205,6 +205,10 @@ Discovered locations appear as markers on the strip, showing their distance and 
 <details>
   <summary>How the compass rotates in the world</summary>
 
+This works by taking the view direction and then flattening it to a horizontal plane.
+And measures the signed angle from the z axis to where you are facing.
+And finnaly converts that angle to a UV offset and scrolls the texture so the compass turns with your head.
+
 ```
 Vector3 forwardVector = Vector3.ProjectOnPlane(viewDirection.forward, Vector3.up).normalized;
 
