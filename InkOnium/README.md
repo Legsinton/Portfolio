@@ -190,4 +190,15 @@ void Update()
    </details>
 </details>
 
+---
+
+## Compass
+
+### Short description
+
+An compass to navigate the world. It works by calculating where the player is facing in the world and uses a looping image so the player always know where they are.
+The compass also uses markers that the player can access  getting close to specific locations in the world and they show how close they are to the different markers.
+
+<img width="903" height="729" alt="Compass Gif" src="https://github.com/user-attachments/assets/870797c2-d646-439a-b9a5-65ec599f9cd9" />
+
 
